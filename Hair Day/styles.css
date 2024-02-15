@@ -1,0 +1,184 @@
+* {
+   /* background-color: black;*/
+    /*color:white;*/
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%; /*full window width*/
+    margin: 3rem, 5%, 3rem, 5%;
+    background-color: black;
+    font-family: Lato, Helvetica, sans-serif;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h2{
+    font-size: 2rem;
+}
+
+
+header > img{
+    display: block;
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+nav{
+    width: 80%;
+    margin-left: 12rem;
+    
+}
+
+nav > ul{
+    list-style: none;
+    text-align: center;
+    position: relative;
+    border: 3px solid hsl(160, 96%, 38%);
+    border-radius: 30px;
+    background-color: aquamarine;
+}
+
+nav li{
+    display: inline-block;
+    margin-right: 6rem;
+    margin-left: 6rem;
+    font-size: 40px;
+    background-color: aquamarine;
+    color: black;
+}
+
+li a{
+    color:black;
+    text-decoration: none;
+}
+
+nav li a:hover{
+    cursor: pointer;
+    color: #d8644c;
+}
+
+main{
+    width: 80%;
+    margin: 0rem 12rem 0rem 12rem;
+}
+
+section{
+    display: flex;
+}
+
+section:nth-of-type(1){
+    background-image: url(hairdayimg/salon.png);
+    background-size: cover;
+    border-radius: 20px;
+}
+
+section:nth-of-type(1):hover{
+    scale: 1.05;
+    transition: all 0.5s;
+    background: aquamarine;
+}
+
+article{
+    flex: 1;
+    padding: 10px;
+    color: #d8644c;
+    -webkit-text-stroke-width: 0.1px;
+    -webkit-text-stroke-color: black;
+}
+
+
+article h1{
+    color: #d8644c;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: black;
+    
+}
+
+article > img {
+    width: 440px;
+    height: 300px;
+    position: relative;
+    margin: auto;
+    left:0px;
+    border-radius: 10px;
+}
+
+
+section:nth-of-type(2) article{
+    width: 80%;
+    margin-top: 40px;
+    background-color: #8e4cd8;
+    color: #f2e0d2;
+    margin-right: 30px;
+    border-radius: 20px;
+}
+
+section:nth-of-type(2) article li{
+    text-align: center;
+    list-style: none;
+}
+
+section:nth-of-type(2) article a{
+    color:#f2e0d2;
+    text-decoration: none;
+}
+
+section:nth-of-type(2) article:hover{
+    scale: 1.05;
+    transition: all 0.5s;
+    background-color: aquamarine;
+    color:#d8644c;
+}
+
+section:nth-of-type(2) article h2{
+    text-align: left;
+}
+
+section:nth-of-type(2) article a:hover{
+    color: #d8644c;
+}
+
+footer{
+    display: flex;
+    width: 80%;
+    margin: 2rem 12rem 0rem 12rem;
+    background-color: aquamarine;
+    border-radius: 5px 5px 0 0 ;
+}
+
+footer:hover{
+    background-color: #8e4cd8;
+}
+
+footer div {
+    flex: 1;
+}
+
+footer h3{
+    position: relative;
+    text-align: right;
+    right: 20px;
+    color: #d8644c;
+}
+
+footer:hover{
+    color: #f2e0d2;
+}
+
+footer h4{
+    position:relative;
+    right:20px;
+    text-align:right;
+    line-height: small;
+}
+
+footer img{
+    width: 150px;
+    height: 150px;
+}
